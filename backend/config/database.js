@@ -3,9 +3,9 @@ const mysql = require('mysql2');
 dotenv.config({ path: "./config.env" });
 const connection = mysql.createConnection({
   host: 'localhost',
-  user:  'root',
-  password: 'toor123',
-  database:  'bfc',
+  user:  'webbqyjp_adminNetGrow',
+  password: '%iNw~[xMgXw$',
+  database:  'webbqyjp_NetGrow',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
